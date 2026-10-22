@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<meta name="description" content="Sam Staton, Professor in Oxford. Research in programming languages, probabilistic programming, quantum programming, semantics, monads, categories, Lawvere theories, Freyd categories">
+<meta name="keywords" content="Sam Samuel Staton">
+<link rel="canonical" href="https://www.cs.ox.ac.uk/people/samuel.staton/main.html">
+<title> Sam Staton 
+</title>
+
+
+<h1>Sam Staton</h1>
+ 
+<table>
+<tbody><tr>
+<td valign="top"><img src="samlow.jpg" alt="A photo of me"></td>
+<td width="20"></td>
+<td><table>
+<tbody><tr>
+<td>
+<address>
+<div itemscope itemtype="http://schema.org/Person">
+<span itemprop="name">Sam Staton</span><br>
+<span itemprop="jobTitle">Professor of Computer Science</span><br>
+<span itemprop="affiliation">Department of Computer Science, 
+University of Oxford</span> 
+</div>
+<br>Room 421
+<br>
+Wolfson Building, Parks Road <br>
+Oxford OX1 3QD<br><br>
+Senior Research Fellow, 
+Jesus College, Oxford<br><br>
+</address>
+  </td></tr>
+<tr>
+<td>+44 (0)1865 (2)73893</td>
+</tr>
+<tr><td>sam.staton at cs.ox.ac.uk</td>
+</tr>
+</tbody></table></td>
+</tr></tbody></table>
+<hr>
+<p>
+<p>
+<p>
+<b>Interests:</b> My research is in programming language theory, and I'm
+ also interested in logic and category theory. I've recently been especially interested in
+ two kinds of programming language:
+<ul>
+<li><i><b>Probabilistic programming languages</b></i>:
+  This is broadly to do with specifying and understanding statistical models using programming languages.
+  I am currently running a <a href="https://www.cs.ox.ac.uk/people/samuel.staton/blast/">ERC Consolidator grant</a> in this area, and we have been given 
+  a <a href="https://research.fb.com/announcing-the-winners-of-the-probability-and-programming-research-awards/">Facebook research award</a> too.
+  Most recently we were awarded a grant from the ARIA programme <a href="https://www.aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/safeguarded-ai/">Safeguarded AI</a>, called '<i>Employing Categorical Probability towards Safe AI</i>', as well as an Opportunity Seed, '<i>SynthStats: GFlowNet-steered probabilistic program synthesis for safer AI</i>'.<p>
+  Our <a href="#popl23a">POPL 2023</a> introduces the <a href="https://lazyppl-team.github.io/">LazyPPL</a> library which demonstrates the power of lazy data structures in probabilistic programming. Quite a bit of my work in semantics of probabilistic programming starts from two key ideas: 
+ <i>s-finite kernels</i> as a simple compositional formalism allowing both sampling and observations (<a href="#esop17">ESOP 2017</a>), and 
+    <em>quasi-Borel spaces</em>, a new setting for higher order probability theory (<a href="#lics17a">LICS 2017</a>). Our <a href="#pps17">PPS
+    2017 abstract</a> looked at the relationship between exchangeability and program modules which I think is an exciting direction, and we stepped further in <a href="#icalp18">ICALP 2018</a>, <a href="#ahp21">AHP 2021</a> and <a href="#popl24">POPL 2024</a>.
+<!--  We had an earlier paper about semantics in <a href="#lics16">LICS 2016</a>. -->
+<p></p></li>
+<li><i><b>Quantum computing and programming languages</b></i>:
+Mathieu Huot and I found a neat universal property for quantum theory (<a href="#lics19">LICS 2019</a>, <a href="#qpl18">QPL 2018</a>) based on my theory of quantum programs
+(<a href="#popl15">POPL 2015</a>). 
+Earlier, I've worked on contextuality and non-locality with 
+<a href="http://www.cs.ru.nl/~suijlen/">Sander Uijlen</a>
+(see our <a href="#iandc18">ICALP 2015</a> paper), and on
+quantum programming languages with 
+<a href="http://www.cs.ru.nl/~mathysr/">Mathys Rennela</a>
+(see our <a href="#mfps17">MFPS 2017</a>/<a href="#lmcs20">LMCS</a> and <a href="#mfps15">2015</a> papers
+and our <a href="#qpl16">QPL 2016</a> paper). My research in this area has been supported by my grant 'Quantum
+Computation as a Programming Language' (<a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N007387/1">EP/N007387/1</a>)
+and a current AFOSR grant FA9550-21-1-0038.
+</li>
+</ul>
+Aside from these recent interests, I've been involved in various foundational
+aspects of programming language theory.
+One key theme has been <b>computational monads and algebraic theories:</b>
+This line of work stems from the observation that
+notions of computation can be determined by program equations
+using techniques from universal algebra. 
+I have presented
+new algebraic frameworks to analyze program equations
+for quantum computation (<a href="#popl15">POPL 2015</a>), jumps (<a href="#lics14a">LICS 2014</a>),
+local store and pi-calculus (<a href="#lics13">LICS 2013</a>, <a href="#fossacs10">FOSSACS 2010</a> and <a href="#mfps09">MFPS
+  2009</a>)
+and functional logic programming (<a href="#fossacs13">FOSSACS
+  2013</a>).
+See <a href="#fossacs19">FOSSACS 2019</a> for a program logic,
+and <a href="#freyd-lawvere14">WACT 2014</a> for a categorical perspective.
+I've also been involved in game semantics
+(<a href="#lics14b">LICS 2014</a>) and
+categorical operational semantics (e.g. <a href="#lics08">LICS
+  2008</a>, <a href="#lics06">LICS 2006</a>, <a href="#lmcs11">LMCS 2011</a>). 
+<p>
+  <b>Quick biography: </b>
+  I've been in Oxford since March 2015. Since 2020 I've been partly supported by my ERC Consolidator Grant <a href="https://www.cs.ox.ac.uk/people/samuel.staton/blast/">'Better Languages for Statistics'</a>. Between 2015-2022 I was supported by a Royal Society University Research Fellowship. Before that, I spent time
+  in
+  Nijmegen (NL) on Bart Jacobs' ERC project Quantum Computation, Logic, and
+  Security (2013&ndash;14), in Paris on the CHOCO project (2010&ndash;11), and in Cambridge as a
+  lecturer (2010&ndash;13), on a EPSRC research fellowship (2007&ndash;10), as a postdoc 
+  (2006&ndash;07), a PhD student (with Marcelo Fiore, 2002&ndash;06)
+  and an undergraduate. <p>(<b><a href="#team">Jump down for postdocs, PhD students and more CV-related info.</a></b>)
+
+<!-- <a href="http://www.jesus.ox.ac.uk/people/professor-sam-staton">Hugh Price Fellow</a> at Jesus College (<i>Jan 2017 &mdash;</i>);
+Royal Society University Research Fellowship (<i>Jan 2015 &mdash;</i>)
+at Oxford (<i>Mar 2015 &mdash;</i>)
+and Cambridge (<i>Jan 2015 &mdash; Feb 2015</i>);
+Researcher in Nijmegen on ERC project Quantum Computation, Logic, and Security
+(<i>Oct 2013 &mdash; Dec 2014</i>).
+Fixed-term lectureship at Cambridge (<i>Jan 2011 &mdash; Oct 2013</i>),
+partly supported by my grant from the Isaac Newton Trust / EPSRC Strategic Fund.
+Researcher on the ANR project <i>CHOCO: Curry-Howard and Concurrency
+Theory</i> at <a href="http://www.pps.univ-paris-diderot.fr/">Lab PPS</a>, Paris
+(<i>June 2010 &mdash; Jan 2011</i>).
+EPSRC Post-Doctoral Research
+Fellowship in Theoretical Computer Science, at Cambridge: <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/E042414/1">
+Mathematical Operational Semantics for Data-Passing Processes</a>
+(<i>June 2007 &mdash; May 2010</i>).
+Research assistant on EPSRC grant <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=GR/T22049/01">
+Domain Theory for Concurrency &mdash; New Categorical Foundations</a>
+(<i>Jan 2006 &mdash; May 2007</i>).
+PhD Student with <a href="http://www.cl.cam.ac.uk/~mpf23">Marcelo Fiore</a>
+(<i>Oct 2002 &mdash; Dec 2006</i>).-->
+<p>
+<h2>Publications and preprints</h2>
+<ul>
+  <li>J.&nbsp;Karwowski, F.&nbsp;Nielsen, S.&nbsp;Staton.
+    <b>Compositional Information Geometry of Probabilistic Programs</b>. Preprint: <a href="https://arxiv.org/abs/2610.17886">arxiv:2610.17886</a>. <p></li>
+  <li>S.&nbsp;J.&nbsp;Park and S.&nbsp;Staton.
+    <b>Coinduction for stochastic processes in higher-order lazy probabilistic programming: Semantics via the Ionescu&ndash;Tulcea extension theorem in &omega;Qbs</b>. Conditionally accepted for POPL 2027. Draft on request. <p></li>
+  <li>T.&nbsp;Wang, D.&nbsp;Stein, M.&nbsp;Lee, E.&nbsp;Bingham, J.&nbsp;Feser, O.&nbsp;Kammar, S.&nbsp;Staton, J.&nbsp;Yallop.
+    <b>From structural causal models to higher order causal probabilistic programming: Contextual equivalences, Graded Monads and Functor Categories</b>. Conditionally accepted for POPL 2027. Draft on request. <p></li>
+  <li>J.&nbsp;Liell-Cock and S.&nbsp;Staton.
+    <b>Cambria: Resource Abstraction for Parametrized Algebraic Effects and Handlers</b>. Conditionally accepted for POPL 2027. Preprint: [<a href="papers/popl2027-cambria.pdf">pdf</a>] <a href="https://arxiv.org/abs/2608.27798">arxiv:2608.27798</a>. Try Cambria in the browser: <a href="https://cambria-lang.org">cambria-lang.org</a>. <p></li>
+  <li>J.&nbsp;Karwowski, Y.&nbsp;Kaddar, Z.&nbsp;Ye, E.&nbsp;S.&nbsp;Whitammer, S.&nbsp;Staton.
+    <b>Likelihood hacking in probabilistic program synthesis</b>. To appear in Proceedings of UAI 2026. Preprint: [<a href="papers/uai2026-likelihood-hacking.pdf">pdf</a>] <a href="https://arxiv.org/abs/2603.24126">arxiv:2603.24126</a>. <p></li>
+  <li>M.-N.&nbsp;Craciun, L.&nbsp;Ong, T.&nbsp;Schrijvers, S.&nbsp;Staton.
+    <b>LazyHMC: Hamiltonian Monte Carlo Simulation for Lazy, Infinite Dimensional Probabilistic Programs</b>. In Proceedings of ICFP 2026. Proceedings of the ACM on Programming Languages, Volume 10, Article No.: 298. [<a href="papers/icfp2026-lazyhmc.pdf">pdf</a>] <a href="https://doi.org/10.1145/3828696">doi:10.1145/3828696</a>. <p></li>
+  <li>J.&nbsp;Liell-Cock and S.&nbsp;Staton.
+    <b>Imprecise Probabilistic Programming, Precisely (Functional Pearl)</b>. In Proceedings of ICFP 2026. Proceedings of the ACM on Programming Languages, Volume 10, Article No.: 300. Preprint: [<a href="papers/icfp2026-imp.pdf">pdf</a>] <a href="https://arxiv.org/abs/2607.20801">arxiv:2607.20801</a>. <a href="https://doi.org/10.1145/3828698">doi:10.1145/3828698</a>. <p></li>
+  <li><b><i>POPL Distinguished Paper:</i></b> O.&nbsp;Kammar, J.&nbsp;Liell-Cock, S.&nbsp;Lindley, C.&nbsp;Matache, S.&nbsp;Staton.
+    <b>An equational axiomatization of dynamic threads via algebraic  effects</b>. In Proceedings of POPL 2026. [<a href="papers/2026popl-threads.pdf">pdf</a>] <a href="https://doi.org/10.1145/3776706">doi:10.1145/3776706</a>. <p></li>
+  <li>J.&nbsp;Liell-Cock, Z.&nbsp;Shirazi, S.&nbsp;Staton.
+    <b>The relative monadic metalanguage</b>. In Proceedings of POPL 2026. Preprint: [<a href="papers/popl2026-rmm.pdf">pdf</a>] <a href="https://arxiv.org/abs/2512.11762">arxiv:2512.11762</a>. <a href="https://doi.org/10.1145/3776702">doi:10.1145/3776702</a>. <p></li>
+<li>Notes on <b>A causal Markov category with Kolmogorov products</b>. Sean Moss and Sam Staton. [<a href="notes-boolean-kernels-as-markov-category.pdf">pdf</a>] <a href="https://arxiv.org/abs/2512.24417">arxiv:2512.24417</a>. <p></li>
+  <li>Cristina Matache, Sam Lindley, Sean Moss, Sam Staton, Nicolas Wu, Zhixuan Yang.
+    <b>Scoped Effects, Scoped Operations, and Parameterized Algebraic Theories</b>.
+In ACM Transactions of Programming Languages and Systems (TOPLAS), Volume 47, 2025. [<a href="papers/2025toplas.pdf">pdf</a>] <a href="https://arxiv.org/abs/2402.03103">arxiv:2402.03103</a>. <a href="http://doi.org/10.1145/3731678">doi:10.1145/3731678</a>. <p>
+</li>
+    <li>
+    Z.&nbsp;Ye, L.&nbsp;C.&nbsp;Melo, Y.&nbsp;Kaddar, P.&nbsp;Blunsom, S.&nbsp;Staton, Y. Gal.
+    <b>Uncertainty-Aware Step-wise Verification with Generative Reward Models.</b>
+Accepted for ICLR 2025 Workshop on Quantifying Uncertainty and Hallucination in Foundation Models. Preprint: [<a href="papers/iclr2025-uncertainty.pdf">pdf</a>] <a href="https://arxiv.org/abs/2502.11250">arxiv:2502.11250</a>.<p> </li>
+
+
+  <li>J.&nbsp;Liell-Cock and S.&nbsp;Staton. <b>Compositional models of imprecise probability</b>. In Proceedings of POPL 2025. Proceedings of the ACM on Programming Languages, Volume 9,
+Article No.: 54.
+    Preprint: [<a href="papers/popl2025.pdf">pdf</a>] <a href="https://arxiv.org/abs/2405.09391">arxiv:2405.09391</a>.
+    <a href="https://doi.org/10.1145/3704890">doi:10.1145/3704890</a>. 
+<p></li>
+  <li>Cristina Matache, Sam Lindley, Sean Moss, Sam Staton, Nicolas Wu, Zhixuan Yang.
+    <b>Scoped Effects as Parameterized Algebraic Theories</b>.
+    In Proceedings of ESOP 2024.
+    <a href="https://doi.org/10.1007/978-3-031-57262-3_1">doi:10.1007/978-3-031-57262-3_1</a>. Preprint: [<a href="papers/esop2024.pdf">pdf</a>]
+    Extended version:
+    <a href="https://arxiv.org/abs/2402.03103">arxiv:2402.03103</a>. <p>    </li>
+  
+  <li>D.&nbsp;Stein and S.&nbsp;Staton. <b>Probabilistic programming with exact conditions</b>. In <i>Journal of the ACM</i>, Volume 71, Issue 1, Article 2. 2024. Preprint: [<a href="papers/jacm2024-exact-conditioning.pdf">pdf</a>] <a href="https://arxiv.org/abs/2312.17141">arxiv:2312.17141</a>. <a href="https://doi.org/10.1145/3632170">doi:10.1145/3632170</a>. 
+  <p></li>
+  <li>
+<a id="popl24">    N. Ackerman, C. Freer, Y. Kaddar, J. Karwowski, S. Moss, D. Roy, S. Staton and Hongseok Yang.</a>
+    <b>Probabilistic programming interfaces for random graphs: Markov categories, graphons, and nominal sets.</b> In <i>Proceedings of 50th ACM SIGPLAN Symposium on Principles of Programming Languages</i> (POPL 24). Proceedings of the ACM on Programming Languages, Volume 8, Issue POPL
+Article No.: 61. Preprint: [<a href="popl24.pdf">pdf</a>]. <a href="https://doi.org/10.1145/3632903">doi:10.1145/3632903</a>. Errata: <a href="papers/popl24errata.txt">txt</a>.
+    <p>
+  </li>
+ <li>  
+  <i><b>LICS Distinguished Paper:</b></i><a id="lics23"></a> A.&nbsp;Lew, M.&nbsp;Huot, S.&nbsp;Staton and V.&nbsp;Mansinghka. <b>omega-PAP Spaces: Reasoning Denotationally About Higher-Order, Recursive Probabilistic and Differentiable Programs.</b> In Proceedings of Thirty-Eighth Annual ACM/IEEE Symposium on
+Logic in Computer Science (<a href="https://lics.siglog.org/lics23/">LICS 2023</a>). <a href="https://doi.org/10.1109/LICS56636.2023.10175739">doi:10.1109/LICS56636.2023.10175739</a>. Preprint: [<a href="papers/lics2023.pdf">pdf</a>]. <a href="https://arxiv.org/abs/2302.10636">arxiv:2302.10636</a>.<p></p></li>
+<li>
+  Y.&nbsp;Kaddar, S.&nbsp;Staton.
+  <b>A model of stochastic memoization and name generation in probabilistic programming: categorical semantics via monads on presheaf categories.</b>
+  In Proceedings of 39th Conference on Mathematical Foundations of Programming Semantics (<a href="https://coalg.org/calco-mfps-2023/mfps/">MFPS 2023</a>). Preprint: [<a href="papers/mfps2023-memoization.pdf">pdf</a>] <a href="https://arxiv.org/abs/2309.09467">arxiv:2309.09467</a>.
+  <p></p></li>
+<li><a id="popl23a"></a>S.&nbsp;Dash, Y.&nbsp;Kaddar, H.&nbsp;Paquet and S.&nbsp;Staton. <b>Affine monads and lazy structures for Bayesian programming.</b> In Proceedings of 50th ACM SIGPLAN Symposium on Principles of Programming Languages (<a href="https://popl23.sigplan.org/">POPL 2023</a>). Proceedings of the ACM on Programming Languages, Volume 7, Article No.: 46, Pages 1338 - 1368. Preprint: [<a href="papers/popl2023-lazyppl.pdf">pdf</a>] <a href="https://arxiv.org/abs/2212.07250">arxiv:2212.07250</a>. <a href="https://doi.org/10.1145/3571239">doi:10.1145/3571239</a>. <p></p></li>
+<li><i><b>POPL Distinguished Paper:</b></i> <a id="popl23b"></a>A.&nbsp;Lew, M.&nbsp;Huot, S.&nbsp;Staton and V.&nbsp;Mansinghka. <b>ADEV: Sound Automatic Differentiation of Expected Values of Probabilistic Programs.</b> In Proceedings of 50th ACM SIGPLAN Symposium on Principles of Programming Languages (<a href="https://popl23.sigplan.org/">POPL 2023</a>). Proceedings of the ACM on Programming Languages, Volume 7, Article No. 5. <a href="https://doi.org/10.1145/3571198">doi:10.1145/3571198</a>. Preprint: [<a href="papers/popl2023-adev.pdf">pdf</a>]. <a href="https://arxiv.org/abs/2212.06386">arxiv:2212.06386</a><p></p></li>
+  <li><a id="qpl22"></a><i><b>Selected for QPL plenary: </b></i>S.&nbsp;Staton and N.&nbsp;Summers. <b>Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras.</b> To appear in Proceedings of International Conference on Quantum Physics and Logic 2022 (<a href="https://www.qplconference.org/">QPL 2022</a>). Preprint: [<a href="papers/qpl2022-definetti.pdf">pdf</a>] <a href="https://arxiv.org/abs/2207.05832">arxiv:2207.05832</a>
+    <p></p></li>
+  <li>C.&nbsp;Matache, S.&nbsp;Moss and S.&nbsp;Staton. <b>Concrete categories and higher-order recursion.</b> In Proceedings of 27th Annual ACM/IEEE Symposium on
+Logic in Computer Science (LICS 2022). <a href="https://doi.org/10.1145/3531130.3533370">doi:10.1145/3531130.3533370</a>. Preprint: [<a href="papers/lics2022.pdf">pdf</a>] <a href="https://arxiv.org/abs/2205.15917">arxiv:2205.15917</a>.
+    <p></p></li>
+  <li><a id="fossacs20j">M.&nbsp;Huot, S.&nbsp;Staton and M.&nbsp;Vákár.</a>
+    <b>Higher order automatic differentiation of higher order functions</b>.
+    In <i>Logical Methods in Computer Science</i>. 2022. <a href="https://doi.org/10.46298/lmcs-18(1:41)2022">doi:10.46298/lmcs-18(1:41)2022</a>. Preprint: [<a href="papers/lmcs2022-higher-order-ad.pdf">pdf</a>]. <a href="https://arxiv.org/abs/2101.06757">arxiv:2101.06757</a>. 
+    <p></p></li>
+  <li>S.&nbsp;Dash and S.&nbsp;Staton. <b>Monads for measurable queries in probabilistic databases.</b> In proceedings of 37th Conference on Mathematical Foundations of Programming Semantics (<a href="https://www.coalg.org/calco-mfps2021/mfps/">MFPS 2021</a>). 2021. <a href="https://doi.org/10.4204/EPTCS.351.3">doi:10.4204/EPTCS.351.3</a>. Preprint: [<a href="papers/mfps2021.pdf">pdf</a>] <a href="https://arxiv.org/abs/2112.14048">arxiv:2112.14048</a>. 
+    <p></p></li>
+  <li>C.&nbsp;Matache, S.&nbsp;Moss and S.&nbsp;Staton. <b>Recursion and Sequentiality in Categories of Sheaves.</b> In Proceedings of 6th International Conference on Formal Structures for Computation and Deduction (<a href="https://fscd2021.dc.uba.ar/">FSCD 2021</a>). <a href="https://arxiv.org/abs/2105.02156">arxiv:2105.02156</a>. <a href="https://doi.org/10.4230/LIPIcs.FSCD.2021.25">doi:10.4230/LIPIcs.FSCD.2021.25</a>. Preprint: [<a href="papers/fscd2021.pdf">pdf</a>] 2021.
+    <p></p></li>
+  <li><a id="lics21"></a><i><b>LICS Distinguished Paper: </b></i>D.&nbsp;Stein and S.&nbsp;Staton. <b>Compositional Semantics for Probabilistic Programs with Exact Conditioning.</b> In Proceedings of Thirty-Sixth Annual ACM/IEEE Conference on Logic in Computer Science (<a href="http://easyconferences.eu/lics2021">LICS 2021</a>).  <a href="https://arxiv.org/abs/2101.11351">arxiv:2101.11351</a>. <a href="https://doi.org/10.1109/LICS52264.2021.9470552">doi:10.1109/LICS52264.2021.9470552</a>. Preprint: [<a href="papers/lics2021.pdf">pdf</a>] 2021. 
+    <p></p></li>
+  <li><b>LazyPPL.</b> [<a href="https://lazyppl-team.github.io">github</a>]. 2021 onwards. Selected for <b>spotlight presentation</b> at <a href="https://neurips.cc/virtual/2021/workshop/21831">AIPLANS 2021</a>. Full paper at <a href="#popl23a">POPL 2023</a>.
+    <p></p></li>
+  <li><a id="ahp21">P.&nbsp;Jung, J.&nbsp;Lee, S.&nbsp;Staton and  H.&nbsp;Yang.</a>
+    <b>A generalization of hierarchical exchangeability on trees to directed acyclic graphs</b>. <a href="https://ahl.centre-mersenne.org/">Annales Henri Lebesgue</a>, vol 4, 2021. Preprint: [<a href="papers/ahl2021-exchangeability.pdf">pdf</a>] <a href="https://arxiv.org/abs/1812.06282">arxiv:1812.06282</a>. <a href="https://doi.org/10.5802/ahl.74">doi:10.5802/ahl.74</a>. Jiho's poster about this journal paper was awarded an <b><i>Honourable Mention</i></b> at <a href="https://www.stats.ox.ac.uk/bnp12/">BNP 2019</a>. <p></p></li>
+  <li>B.&nbsp;Vidgen, S.&nbsp;Staton, S.&nbsp;Hale, T.&nbsp;Melham, H.&nbsp;Margetts, O.&nbsp;Kammar, M.&nbsp;Szymczak. <b>Recalibrating classifiers for interpretable abusive content detection.</b> In Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science (<a href="https://sites.google.com/site/nlpandcss/">NLP+CSS 2020</a>). [<a href="papers/nlpcss2020-recalibrating.pdf">pdf</a>] (<a href="https://aclanthology.org/2020.nlpcss-1.14/">ACL Anthology</a>).  
+    <p></p></li>
+  <li><a id="popl21"></a>M.&nbsp;Sabok, S.&nbsp;Staton, D.&nbsp;Stein and M.&nbsp;Wolman. <b>Probabilistic programming semantics for name generation.</b> In Proceedings of <a href="https://popl21.sigplan.org/">POPL 2021</a>. Proceedings of the ACM on Programming Languages vol 5. 
+    <a href="https://arxiv.org/abs/2007.08638">arxiv:2007.08638</a>. <a href="https://dl.acm.org/doi/10.1145/3434292">doi:10.1145/3434292</a>. Preprint: [<a href="papers/popl2021.pdf">pdf</a>].
+    <p></p></li>
+  <li><a id="act20">S.&nbsp;Dash and S.&nbsp;Staton.</a>
+    <b>A monad for probabilistic point processes.</b>
+    In <i>Proceedings of Applied Category Theory 2020</i> (<a href="https://act2020.mit.edu/">ACT 2020</a>). Open access: [<a href="papers/act2020-point-processes.pdf">pdf</a>] (<a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ACT2020:61.pdf">EPTCS</a>). <a href="https://arxiv.org/abs/2101.10479">arxiv:2101.10479</a>. <p></p></li>
+  <li><a id="fossacs20">M.&nbsp;Huot, S.&nbsp;Staton and M.&nbsp;Vákár.</a>
+    <b>Correctness of Automatic Differentiation via diffeologies and categorical gluing</b>.
+    In <i>23rd International Conference on Foundations of Software Science and Computation Structures</i> (<a href="https://www.etaps.org/2020/fossacs">FOSSACS 2020</a>). <a href="https://doi.org/10.1007/978-3-030-45231-5_17">doi:10.1007/978-3-030-45231-5_17</a>. Preprint: [<a href="papers/fossacs2020-ad.pdf">pdf</a>]. <a href="https://arxiv.org/abs/2001.02209">arxiv:2001.02209</a>. 
+    <p></p></li>
+  <li><a id="cmcs20">B.&nbsp;Jacobs and S.&nbsp;Staton.</a>
+    <b>De Finetti's construction as a categorical limit</b>.
+    In <i>15th International Workshop on Coalgebraic Methods in Computer Science</i> (<a href="https://www.coalg.org/cmcs20/">CMCS 2020</a>). Preprint: [<a href="papers/cmcs2020-definetti.pdf">pdf</a>] <a href="https://arxiv.org/abs/2003.01964">arxiv:2003.01964</a><p></p></li>
+  <li><a id="lmcs20">M.&nbsp;Rennela and S.&nbsp;Staton.</a> <b>Classical control, quantum circuits and linear logic in enriched category theory</b>. In Logical Methods In Computer Science, March 2020. [<a href="papers/lmcs2020-quantum-classical.pdf">pdf</a>] <a href="https://arxiv.org/abs/1711.05159">arxiv:1711.05159</a>.<p></p></li>
+  <li><a id="lics19">M.&nbsp;Huot and S.&nbsp;Staton.</a>
+    <b>Quantum channels as a categorical completion</b>.
+    In <i>34th Annual ACM/IEEE Symposium on
+Logic in Computer Science</i> (<a href="http://lics.siglog.org/lics19/index.php">LICS 2019</a>). <a href="https://doi.org/10.1109/LICS.2019.8785700">doi:10.1109/LICS.2019.8785700</a>. Preprint: [<a href="papers/lics2019.pdf">pdf</a>]. <a href="https://arxiv.org/abs/1904.09600">arxiv:1904.09600</a><p></p></li>
+  <li><a id="fossacs19">C.&nbsp;Matache and S.&nbsp;Staton.</a>
+    <b>A sound and complete logic for algebraic effects.</b>
+    In <i>22nd International Conference on Foundations of Software Science and Computation Structures</i> (<a href="https://conf.researchr.org/track/etaps-2019/fossacs-2019-papers">FOSSACS 2019</a>). <a href="https://doi.org/10.1007/978-3-030-17127-8_22">doi:10.1007/978-3-030-17127-8_22</a>. Preprint: [<a href="papers/fossacs-2019.pdf">pdf</a>]<p></p></li>
+  <li><i><b>POPL <a href="https://popl19.sigplan.org/program/program-POPL-2019?badge=Distinguished%20Paper">distinguished paper</a>:</b></i> <a id="popl19">M.&nbsp;Vákár, O.&nbsp;Kammar and S.&nbsp;Staton.</a>
+    <b>A domain theory for statistical probabilistic programming.</b> In Proceedings of <i>46th ACM Symposium on Principles of Programming Languages</i> (<a href="https://popl19.sigplan.org/">POPL 2019</a>). Proc. ACM Program. Lang., Volume 3, Article 36.
+<a href="https://doi.org/10.1145/3290349">doi:10.1145/3290349</a>. Preprint: [<a href="papers/popl2019.pdf">pdf</a>] <a href="https://arxiv.org/abs/1811.04196">arxiv:1811.04196</a>.
+<p></p></li>								
+  <li><a id="qpl18">M.&nbsp;Huot and S.&nbsp;Staton.</a>
+    <b>Universal properties in quantum theory.</b> In <i>15th International Conference on Quantum Physics and Logic</i> (<a href="https://www.mathstat.dal.ca/qpl2018/">QPL 2018</a>). Electronic Proceedings in Theoretical Computer Science 287, pp. 213–223. <a href="http://dx.doi.org/10.4204/EPTCS.287.12">doi:10.4204/EPTCS.287.12</a> Preprint: [<a href="papers/qpl2018.pdf">pdf</a>] (open access). Errata: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/qpl2018errata.txt">txt</a>
+<p></p></li>								
+  <li><a id="icalp18">S.&nbsp;Staton, D.&nbsp;Stein, H.&nbsp;Yang, N.&nbsp;L.&nbsp;Ackerman, C.&nbsp;Freer, D.&nbsp;Roy.</a>
+    <b>The Beta-Bernoulli Process and Algebraic Effects.</b>
+    In <i>Proceedings of 45th International Colloquium on Automata, Languages and Programming</i> (<a href="https://iuuk.mff.cuni.cz/~icalp2018/">ICALP 2018</a>).
+    <a href="https://doi.org/10.4230/LIPIcs.ICALP.2018.141">doi:10.4230/LIPIcs.ICALP.2018.141</a>. Preprint: [<a href="papers/icalp2018.pdf">pdf</a>] <a href="https://arxiv.org/abs/1802.09598">arxiv:1802.09598</a>.
+<p></p></li>
+  <li><a id="popl18">A.&nbsp;Ścibior, O.&nbsp;Kammar, M.&nbsp;Vákár, S.&nbsp;Staton, H.&nbsp;Yang, Y.&nbsp;Cai, K.&nbsp;Ostermann, S.K.&nbsp;Moss, C.&nbsp;Heunen, and Zoubin Ghahramani.</a>
+    <b> Denotational validation of Bayesian inference.</b>
+    In <i>Proceedings of 45th ACM SIGPLAN Symposium on Principles of Programming Languages</i> (POPL 2018). In Proc. ACM Program. Lang., Volume 2, Article 60.
+    <a href="http://dx.doi.org/10.1145/3158148">doi:10.1145/3158148</a>. Preprint: [<a href="papers/popl2018.pdf">pdf</a>] <a href="https://arxiv.org/abs/1711.03219">arxiv:1711.03219</a>.
+<p></p></li>
+  <li>
+    <a id="iandc18">S.&nbsp;Staton and S.&nbsp;Uijlen.</a>
+    <b>Effect algebras, presheaves, non-locality and
+      contextuality.</b>
+    Information and Computation Vol 261, Part 2, Pages 336&ndash;365.
+    (2018). Invited contribution for special issue on ICALP 2015. <a href="https://doi.org/10.1016/j.ic.2018.02.012">doi:10.1016/j.ic.2018.02.012</a>.
+    Preprint: [<a href="papers/infocomp2017.pdf">pdf</a>]<p></p>
+    </li>
+<li>
+  <i><b>Winner of <a href="http://www.etaps.org/index.php/2017/best-papers">EATCS Best Paper Award</a>:</b></i>
+  <a id="esop17">S.&nbsp;Staton.</a>
+<b>Commutative semantics for probabilistic programming.</b>  
+In Proceedings of <i>26th European Symposium on Programming</i> 
+(<a href="http://www.etaps.org/index.php/2017/esop">ESOP
+  2017</a>),
+<a href="http://dx.doi.org/10.1007/978-3-662-54434-1_32">doi:10.1007/978-3-662-54434-1_32</a>.
+Preprint: [<a href="papers/esop2017.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="mfps17">M.&nbsp;Rennela and S.&nbsp;Staton.</a>
+<b>Classical Control and Quantum Circuits in Enriched Category Theory.</b>
+In Proceedings of 
+<i>33rd Conference on Mathematical Foundations of Programming Semantics </i>
+(<a href="http://coalg.org/mfps-calco2017/">MFPS 2017</a>).
+ Electr. Notes Theor. Comput. Sci. 336:
+257--279. [<a href="papers/mfps2017-quantum-classical.pdf">pdf</a>] Open access: <a href="https://doi.org/10.1016/j.entcs.2018.03.027">doi:10.1016/j.entcs.2018.03.027</a>. Extended version: <a href="https://arxiv.org/abs/1711.05159">arxiv:1711.05159</a>. 
+<p></p></li>
+  <li>
+    <a id="jfp17">M.&nbsp;Pir&oacute;g and S.&nbsp;Staton.</a> 
+    <b>Backtracking with cut
+via a distributive law and left-zero monoids.</b>
+    Theoretical Pearl for Journal of Functional Programming, vol 27. 2017.
+    <a href="https://doi.org/10.1017/S0956796817000077">doi:10.1017/S0956796817000077</a>.
+    Preprint: [<a href="papers/jfp17.pdf">pdf</a>]<p></p>
+    </li>
+<li>
+<a id="lics17a"><i><b>Selected for <a href="http://acm-stoc.org/stoc2018/invited.html">STOC best of theory</a>:</b></i> C.&nbsp;Heunen, O.&nbsp;Kammar, S.&nbsp;Staton and H.&nbsp;Yang.</a>  
+<b>A convenient category for higher-order probability theory.</b> 
+In Proceedings of <i>32nd Annual ACM/IEEE Symposium on Logic
+  in Computer Science</i>
+(<a href="http://lics.rwth-aachen.de/lics17/index.html">LICS 2017</a>).
+<a href="https://doi.org/10.1109/LICS.2017.8005137">doi:10.1109/LICS.2017.8005137</a>. Preprint: [<a href="papers/lics2017-qbs.pdf">pdf</a>] <a href="https://arxiv.org/abs/1701.02547">arxiv:1701.02547</a>.
+<p></p></li>
+<li>
+<a id="lics17b">O.&nbsp;Kammar, P.&nbsp;B.&nbsp;Levy, S.&nbsp;K.&nbsp;Moss and S.&nbsp;Staton.</a> 
+<b>A monad for full ground reference cells.</b>
+In Proceedings of <i>32nd Annual ACM/IEEE Symposium on Logic
+  in Computer Science</i>
+(<a href="http://lics.rwth-aachen.de/lics17/index.html">LICS 2017</a>).
+<a href="https://doi.org/10.1109/LICS.2017.8005109">doi:10.1109/LICS.2017.8005109</a>. Preprint: [<a href="papers/lics2017-ref-cells.pdf">pdf</a>] <a href="https://arxiv.org/abs/1702.04908">arxiv:1702.04908</a>.
+<p></p></li>
+<li>
+<a id="pps17">S.&nbsp;Staton, H.&nbsp;Yang, N.&nbsp;L..&nbsp;Ackerman, C.&nbsp;Freer, D.&nbsp;Roy</a>. 
+<b>Exchangeable random process and data abstraction.</b> 
+<i>Workshop on probabilistic programming semantics</i> 
+(<a href="http://conf.researchr.org/track/POPL-2017/pps-2017">PPS
+  2017</a>). Extended abstract: [<a href="papers/pps2017-exchangeable.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="qpl16">R.&nbsp;Furber, M.&nbsp;Rennela and S.&nbsp;Staton.</a> 
+<b>Infinite-dimensionality in quantum foundations: W*-algebras as
+  presheaves over matrix algebras.</b> 
+In Proceedings of <i>13th International Conference on Quantum
+  Physics and Logic</i>
+(<a href="http://qpl2016.cis.strath.ac.uk/">QPL 2016</a>).
+Electronic Proceedings in Theoretical Computer Science vol 236 pages
+161–173.
+<a href="http://dx.doi.org/10.4204/EPTCS.236.11">doi:10.4204/EPTCS.236.11</a>. <a href="https://arxiv.org/abs/1701.00662">arxiv:1701.00662</a>. Preprint: [<a href="papers/qpl2016.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="arxiv16"><a id="lics16">S.&nbsp;Staton, H.&nbsp;Yang, C.&nbsp;Heunen,
+O.&nbsp;Kammar and F.&nbsp;Wood.</a></a>
+<b>Semantics for probabilistic programming: higher-order
+functions, continuous distributions, and soft constraints.</b>
+In Proceedings of <i>31st Annual ACM/IEEE Symposium on Logic
+  in Computer Science</i> (<a href="http://lics.rwth-aachen.de/lics16/">LICS 2016</a>). 
+<a href="http://dx.doi.org/10.1145/2933575.2935313">doi:10.1145/2933575.2935313</a>. Preprint: [<a href="papers/lics2016.pdf">pdf</a>] <a href="http://arxiv.org/abs/1601.04943">arXiv:1601.04943</a>. 
+
+<p></p></li>
+<li>
+<a id="mfps15">M.&nbsp;Rennela and S.&nbsp;Staton.</a>
+<b>Complete positivity and natural representation of quantum computations.</b>
+In Proceedings of 
+<i>31st Conference on Mathematical Foundations of Programming Semantics </i>
+(<a href="http://events.cs.bham.ac.uk/mfps31/?lang=en">MFPS 2015</a>).
+ Electr. Notes Theor. Comput. Sci. 319:
+369-385. <a href="http://dx.doi.org/10.1016/j.entcs.2015.12.022">doi:10.1016/j.entcs.2015.12.022</a>. Preprint: [<a href="papers/mfps2015-complete-positivity.pdf">pdf</a>]
+
+<p></p></li>
+<li>
+<a id="icalp15">S.&nbsp;Staton and S. Uijlen.</a>
+<b>Effect algebras, presheaves, non-locality and contextuality.</b>
+In Proceedings of 
+<i>42nd International Colloquium on Automata, Languages and Programming </i>
+(<a href="http://www.kurims.kyoto-u.ac.jp/icalp2015/">ICALP 2015</a>),
+pages 401-413.
+<a href="http://dx.doi.org/10.1007/978-3-662-47666-6_32">doi:10.1007/978-3-662-47666-6_32</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/icalp2015.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="tlca15">R. Atkey, N. Ghani, F. Nordvall Forsberg, T. Revell and S.&nbsp;Staton.</a>
+<b>Models for polymorphism over physical dimensions.</b>
+In Proceedings of 
+<i>13th International Conference on Typed Lambda Calculi and
+  Applications </i>
+(<a href="http://rdp15.mimuw.edu.pl/index.php?site=tlca">TLCA
+  2015</a>),
+pages 45-59.
+<a href="http://dx.doi.org/10.4230/LIPIcs.TLCA.2015.45">doi:10.4230/LIPIcs.TLCA.2015.45</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/tlca2015.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="popl15">S.&nbsp;Staton.</a>
+<b>Algebraic effects, linearity, and quantum programming languages.</b>
+In proceedings of 
+<i>42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages</i>
+(<a href="http://popl.mpi-sws.org/2015/">POPL 2015</a>),
+pages 395-406.
+<a href="http://dx.doi.org/10.1145/2676726.2676999">doi:10.1145/2676726.2676999</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="lics14a">M.&nbsp;P.&nbsp;Fiore and S.&nbsp;Staton.</a>
+<b>Substitution, jumps, and algebraic effects.</b>
+In proceedings of
+<i>Joint meeting of
+the Twenty-Third EACSL Annual Conference on
+Computer Science Logic
+and
+the Twenty-Ninth Annual ACM/IEEE Symposium on
+Logic in Computer Science</i>
+(<a href="http://lics.rwth-aachen.de/csl-lics14/">CSL-LICS14</a>).
+<a href="http://dx.doi.org/10.1145/2603088.2603163">doi:10.1145/2603088.2603163</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/lics2014-substitution.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="lics14b">P.&nbsp;B.&nbsp;Levy and S.&nbsp;Staton.</a>
+<b>Transition systems over games.</b>
+In proceedings of
+<i>Joint meeting of
+the Twenty-Third EACSL Annual Conference on
+Computer Science Logic
+and
+the Twenty-Ninth Annual ACM/IEEE Symposium on
+Logic in Computer Science</i>
+(<a href="http://lics.rwth-aachen.de/csl-lics14/">CSL-LICS14</a>).
+<a href="http://dx.doi.org/10.1145/2603088.2603150">doi:10.1145/2603088.2603150</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/lics2014-games.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="lmcs14">R.&nbsp;E.&nbsp;M&oslash;gelberg and S.&nbsp;Staton.
+<b>Linear usage of state.</b></a>
+Logical Methods in Computer Science, Vol 10, Issue 1.
+<a href="http://www.lmcs-online.org/ojs/specialIssues.php?id=43">
+Special issue on Algebraic and Coalgebraic Methods in Computer Science
+</a>.
+<a href="http://dx.doi.org/10.2168/LMCS-10(1:17)2014">doi:10.2168/LMCS-10(1:17)2014</a>. Preprint: [<a href="papers/lmcs2014.pdf">pdf</a>]
+<a href="http://arxiv.org/abs/1403.1477">arxiv:1403.1477</a>.
+<p></p>
+</li>
+<li>
+<div itemscope itemtype="http://schema.org/Article"><a id="freyd-lawvere14"><span itemprop="author">S.&nbsp;Staton.</span> 
+<b itemprop="headline">Freyd categories are enriched Lawvere theories.</b></a>
+In Proceedings of <i>Workshop on Algebra, Coalgebra and Topology</i>. Electron. Notes Theor. Comput. Sci. 303:197-206. <span itemprop="datepublished">2013</span>.
+<a href="http://dx.doi.org/10.1016/j.entcs.2014.02.010">doi:10.1016/j.entcs.2014.02.010</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/freyd-lawvere-2014.pdf">pdf</a>
+| note: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/freyd-lawvere-2014-note.txt">txt</a>]<p></p></li>
+<li>
+<a id="mfps13">D.&nbsp;Ahman and S.&nbsp;Staton.
+<b>Normalization by evaluation and algebraic effects.</b></a>
+In Proceedings of <i>Twenty-Ninth Conference on Mathematical Foundations of Programming Semantics</i> (<a href="http://www.cs.cornell.edu/Conferences/MFPS29/">MFPS 2013</a>).
+Electron. Notes Theor. Comput. Sci. 298:51-69. 2013.
+<a href="http://dx.doi.org/10.1016/j.entcs.2013.09.007">doi:10.106/j.entcs.2013.09.007</a>. Preprint: [<a href="papers/mfps2013-nbe.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="lics13">S.&nbsp;Staton.
+<b>Instances of computational effects.</b></a>
+In Proceedings of <i>Twenty-Eighth Annual ACM/IEEE Symposium on
+Logic in Computer Science</i>
+(<a href="http://lii.rwth-aachen.de/lics/lics13/">LICS 2013</a>).
+<a href="http://dx.doi.org/10.1109/LICS.2013.58">doi:10.1109/LICS.2013.58</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/lics2013.pdf">pdf</a>
+| errata: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/lics2013errata.txt">txt</a>]<p></p></li>
+<li>
+<a id="fossacs13">S.&nbsp;Staton.
+<b>An algebraic presentation of predicate logic.</b></a>
+In Proceedings of <i>Sixteenth International Conference on Foundations of Software Science and Computation Structures</i>
+(<a href="http://www.etaps.org/index.php/2013/fossacs">FOSSACS 2013</a>),
+Lecture Notes in Comput. Sci. 7794:401-417. Springer, 2013.
+<a href="http://dx.doi.org/10.1007/978-3-642-37075-5_26">doi:10.1007/978-3-642-37075-5_26</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs13.pdf">pdf</a>]
+[code: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/flp/flp.sml">flp.sml</a>]
+<p></p></li>
+<li>
+<a id="popl13">S.&nbsp;Staton and P.&nbsp;Levy.
+<b>
+Universal properties for impure programming languages.
+</b></a>
+In Proceedings of <i>Fortieth ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages</i>
+(<a href="http://popl.mpi-sws.org/2013">POPL 2013</a>),
+pages 179-192.
+<a href="http://dx.doi.org/10.1145/2429069.2429091">doi:10.1145/2429069.2429091</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl13.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="calco11">R.&nbsp;E.&nbsp;M&oslash;gelberg and S.&nbsp;Staton.
+<b>
+Linearly-used state in models of call-by-value.
+</b></a>
+In Proceedings of <i>Fourth International Conference on Algebra and Coalgebra in Computer Science</i>
+(<a href="http://calco2011.ecs.soton.ac.uk/">CALCO 2011</a>).
+Lecture Notes in Comput. Sci. 6859:293-313.
+<a href="http://dx.doi.org/10.1007/978-3-642-22944-2_21">doi:10.1007/978-3-642-22944-2_21</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/calco11.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="lmcs11">S.&nbsp;Staton.
+<b>
+Relating coalgebraic notions of bisimulation.
+</b></a>
+Logical Methods in Computer Science
+Vol 7, Issue 1 (March 2011). 
+<a href="http://dx.doi.org/10.2168/LMCS-7(1:13)2011">doi:10.2168/LMCS-7(1:13)2011</a>. Preprint: [<a href="papers/lmcs2011.pdf">pdf</a>]
+<a href="http://arxiv.org/abs/1101.4223">arXiv:1101.4223</a>.
+<p></p></li>
+<li>
+<a id="lics10">S.&nbsp;Staton and G.&nbsp;Winskel.
+<b>
+On the expressivity of symmetry in event structures.
+</b></a>
+In Proceedings of <i>25th Annual IEEE Symposium on Logic in Computer Science</i> (<a href="http://lics.rwth-aachen.de/archive/2010">LICS 2010</a>), pages 392-401.
+<a href="http://dx.doi.org/10.1109/LICS.2010.37">doi:10.1109/LICS.2010.37</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/lics2010.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="lola10">R.&nbsp;E.&nbsp;M&oslash;gelberg and S.&nbsp;Staton.
+<b>Full abstraction in a metalanguage for state.</b></a>
+In Workshop on <i>Syntax and Semantics of Low Level Languages</i> (<a href="http://www.floc-conference.org/LOLA-home.html">LOLA 2010</a>).
+Satellite workshop of LICS 2010.<p></p></li>
+<li>
+<a id="cie10">T.&nbsp;Altenkirch, P.&nbsp;Levy and S.&nbsp;Staton.
+<b>
+Higher order containers.
+</b></a>
+In Proceedings of <i>Computability in Europe</i> (<a href="http://www.cie2010.uac.pt/">CiE 2010</a>). 
+Lecture Notes in Comput. Sci. 6158:11-20.
+<a href="http://dx.doi.org/10.1007/978-3-642-13962-8_2">doi:10.1007/978-3-642-13962-8_2</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/cie10.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="cmcs10">M.&nbsp;P.&nbsp;Fiore and S.&nbsp;Staton.
+<b>
+Positive structural operational semantics and monotone distributive laws.
+</b></a>
+Short contribution for <i>10th International Workshop on Coalgebraic Methods in Computer Science</i> (<a href="http://event.cwi.nl/cmcs10/">CMCS 2010</a>). CWI Technical report <a href="http://persistent-identifier.org/?identifier=urn:nbn:nl:ui:18-17249">SEN-1004</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/cmcs10.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="fossacs10">S.&nbsp;Staton.
+<b>
+Completeness for algebraic theories of local state.
+</b></a>
+Proceedings of <i>13th International Conference on Foundations of Software Science and Computation Structure</i> (<a href="http://www.etaps.org/2010/Conf/conf.html#fossacs">FOSSACS 2010</a>). Lecture Notes in Comput. Sci. 6014:48-63.
+<a href="http://dx.doi.org/10.1007/978-3-642-12032-9_5">doi:10.1007/978-3-642-12032-9_5</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs10.pdf">pdf</a>
+| errata: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs10errata.txt">txt</a>]
+<p></p></li>
+<li>
+<a id="calco09">S.&nbsp;Staton.
+<b>
+Relating coalgebraic notions of bisimulation, with applications to name-passing process calculi.
+</b></a>
+Proceedings of <i>3rd Conference on Algebra and Coalgebra in Computer Science</i> (<a href="http://calco09.dimi.uniud.it/">CALCO 2009</a>). 
+Lecture Notes in Comput. Sci. 5728:191-205.
+<a href="http://dx.doi.org/10.1007/978-3-642-03741-2_14">doi:10.1007/978-3-642-03741-2_14</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/calco09.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="mfps09">S.&nbsp;Staton.
+<b>
+Two cotensors in one: 
+Presentations of algebraic theories for 
+local state and fresh names.
+</b></a>
+Proceedings of <i>25th Conference on the Mathematical Foundations of Programming Semantics</i> (<a href="http://dauns.math.tulane.edu/~mfps/MFPS25/MFPS%2025.html">MFPS 25</a>). Electron. Notes Theor. Comput. Sci. 249:471-490. 2009. <a href="http://dx.doi.org/10.1016/j.entcs.2009.07.103">doi:10.1016/j.entcs.2009.07.103</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/twocotensors.pdf">pdf</a>]<p></p></li>
+<li>
+S.&nbsp;Staton.
+<b>
+Substitution in Structural Operational Semantics and value-passing process calculi.
+</b>
+Proceedings of <i>2nd International Workshop on Theory and Applications of Abstraction, Substitution and Naming</i> (<a href="http://www.dcs.kcl.ac.uk/staff/maribel/TAASN.html">TAASN 2009</a>).
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/taasn09.pdf">pdf</a>]<p>
+</p></li>
+<li>
+<a id="ic09">M.&nbsp;Fiore and S.&nbsp;Staton.
+<b>
+A Congruence Rule Format for Name-Passing Process Calculi.
+</b></a>
+Information and Computation Vol 207, Issue 2 (February 2009), Pages 209-236. Special Issue on Structural Operational Semantics. <a href="http://dx.doi.org/10.1016/j.ic.2007.12.005">doi:10.1016/j.ic.2007.12.005</a>. [preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/ic07.pdf">pdf</a>]<p></p></li>
+<li>
+<a id="lics08">S.&nbsp;Staton.
+<b>
+General Structural Operational Semantics through Categorical Logic.
+</b></a>
+Proceedings of <i>23rd Annual IEEE Symposium on Logic in Computer Science</i> (<a href="http://lics.rwth-aachen.de/archive/2008">LICS 2008</a>), pages 166-177. <a href="http://dx.doi.org/10.1109/LICS.2008.43">doi:10.1109/LICS.2008.43</a>.
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/lics08.pdf">pdf</a>]<p></p></li>
+<li>
+S.&nbsp;Staton.
+<b>Name-Passing Process Calculi: Operational Models and Structural Operational Semantics.</b>
+PhD thesis. Girton College, Cambridge.
+Supervised by Marcelo Fiore,
+and examined by Gordon Plotkin and Andrew Pitts.
+Computer Laboratory Technical Report <a href="http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-688.html">UCAM-CL-TR-688</a>.
+[Thesis summary: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/thesissummary.pdf">pdf</a>]
+<p></p></li>
+<li>
+<a id="lics06">M.&nbsp;P.&nbsp;Fiore and S.&nbsp;Staton.
+<b>
+A Congruence Rule Format for Name-Passing Process Calculi from Mathematical Operational Semantics.
+</b></a>
+Proceedings of <i>21st Annual IEEE Symposium on Logic in Computer Science</i> (<a href="http://lics.rwth-aachen.de/archive/2006">LICS 2006</a>), pages 49-58. <a href="http://dx.doi.org/10.1109/LICS.2006.7">doi:10.1109/LICS.2006.7</a>.&nbsp; 
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/lics06.pdf">pdf</a>]<p>
+</p></li>
+<li>
+<a id="ic06">M.&nbsp;P.&nbsp;Fiore and S.&nbsp;Staton.
+<b>
+Comparing operational models of name-passing process calculi.
+</b></a>
+Information and Computation Vol 204, Issue 4 (April 2006), 
+Pages 524-560. <a href="http://dx.doi.org/10.1016/j.ic.2005.08.004">doi:10.1016/j.ic.2005.08.004</a>.&nbsp; 
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/ic05.pdf">pdf</a>].
+Preliminary version in Proceedings of
+<i>7th International Workshop on Coalgebraic Methods 
+in Computer Science</i> (CMCS'04).&nbsp;
+Electron. Notes Theor. Comput. Sci. 106:91-104. <a href="http://dx.doi.org/10.1016/j.entcs.2004.02.025">doi:10.1016/j.entcs.2004.02.025</a>.&nbsp;
+[preprint: <a href="http://www.cs.ox.ac.uk/people/samuel.staton/papers/cmcs04.pdf">pdf</a>]
+<p>
+</p></li>
+</ul>
+
+<a id="team">
+<h2>Research Associates and Students</h2>
+<ul>
+<li>Some postdocs:
+  <ul>
+<li><a href="https://dylanm.org/">Dylan McDermott</a> is a postdoc on my grant "Quantum programming via algebraic effects".</li>
+<li><a href="http://www.paoloperrone.org/">Paolo Perrone</a> is a postdoc on my ERC Blast project</li>
+<li><a href="https://www.maths.ed.ac.uk/~s1945481/">Ruben Van Belle</a> is a postdoc on my ERC Blast project</li>
+<li><a href="https://www.cs.ox.ac.uk/people/zihuiwen.ye/">Zihuiwen Ye</a> is a postdoc on the ARIA SynthStats project.</li>
+  </ul>
+<li>
+  I'm currently supervising DPhil/PhD students:
+  <ul>
+   <li><a href="https://nikolajjensen.com/">Nikolaj Jensen</a></li>
+  <li><a href="https://owenlynch.org/">Owen Lynch</a></li>
+   <li><a href="https://younesse.net/">Younesse Kaddar</a></li> <li><a href="https://users.ox.ac.uk/~mert4694/">Jacek Karwowski</a></li>
+   <li><a href="https://www.cs.ox.ac.uk/people/seojin.park/">Seo Jin Park</a></li>
+  <li><a href="https://www.cs.ox.ac.uk/people/razin.shaikh/">Razin Shaikh</a></li>
+  <li><a href="https://theo.wang/">Théo Wang</a></li>
+   <li>I am also co-supervising
+<a href="https://nathancorbyn.com">Nathan Corbyn</a> (cosupervised with Sean Moss),
+    <a href="https://www.cs.ox.ac.uk/people/maria.craciun/">Maria Craciun</a>,
+    <a href="https://www.cs.ox.ac.uk/people/dichuan.gao/">David Gao</a>,
+    <a href="https://www.cs.ox.ac.uk/people/tadayoshi.kamegai/">Tadayoshi Kamegai</a> (cosupervised with Max Dor&eacute;),
+    <a href="https://www.cs.ox.ac.uk/people/jack.liell-cock/">Jack Liell-Cock</a>, <a href="https://www.cs.ox.ac.uk/people/zev.shirazi/">Zev Shirazi</a>.</li>
+</ul>
+<!-- to insert
+
+    <a href="https://www.cs.ox.ac.uk/people/lukas.heidemann/">Lukas Heidemann</\
+a>,
+-->
+<li>Some people I have supervised and worked with: <a href="https://elenadilavore.github.io/">Elena Di Lavore</a> was a postdoc on a grant from ARIA Safeguarded AI, now in Tallinn; <a href="https://mroman42.github.io/">Mario Rom&aacute;n</a> was a postdoc on my grant "Quantum programming via algebraic effects", now in Tallinn; <a href="https://www.nedsummers.com/">Ned Summers</a> was a DPhil student; <a href="https://pedrohaa.github.io">Pedro Amorim</a> was a postdoc on my <a href="https://www.cs.ox.ac.uk/people/samuel.staton/blast/">ERC Blast</a> project, now lecturer at the University of Bath; <a href="https://nickx.hu/">Nick Hu</a> was a DPhil student cosupervised with Jamie Vicary, currently a postdoc in Birmingham;          <a href="https://www.cs.ox.ac.uk/people/maximilian.dore/">Max Dore</a> was a DPhil student cosupervised with Samson Abramsky, currently a Departmental Lecturer in Oxford; <a href="https://uk.linkedin.com/in/lukas-heidemann-5a0590198">Lukas Heidemann</a> was a DPhil student cosupervised with Jamie Vicary, currently a researcher at Quantinuum; <a href="https://researchportal.hw.ac.uk/en/persons/swaraj-dash">Swaraj Dash</a> was a DPhil student (2017-2024), now Assistant Professor at Heriot Watt</a>; <a href="https://philipsaville.co.uk">Philip Saville</a> was a postdoc on my grant "Quantum programming via algebraic effects" (2021-2024), now a Lecturer at University of Sussex;
+ <a href="https://group-mmm.org/~skura/">Satoshi Kura</a> was a JSPS overseas research fellow (2022-2024), now an Assistant Professor at Waseda University; 
+  <a href="https://users.ox.ac.uk/~scro3639/">Mathieu Huot</a> was a DPhil student, now a postdoc at MIT;  <a href="https://seankmoss.bitbucket.io/">Sean Moss</a> was an RA on my ERC grant, now an Assistant Professor in Birmingham;
+<a href="http://users.ox.ac.uk/~scro3229/">Cristina Matache</a> was a DPhil student, now a postdoc in Edinburgh;  <a href="https://www.cs.ox.ac.uk/people/hugo.paquet/">Hugo Paquet</a> was a postdoc on my Royal Society grant until Jan 2023, now holding a Marie Skłodowska-Curie Award in Paris;
+  <a href="http://www.denotational.co.uk/">Ohad Kammar</a> 
+was an RA on my EPSRC grant
+  <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N007387/1">EP/N007387/1</a> and earlier on a grant from the Isaac Newton Trust;
+  now a Lecturer in Edinburgh;
+  <a href="https://uk.linkedin.com/in/marcin-szymczak-44a32733">Marcin Szymczak</a> was an RA on seed funding from the Alan Turing Institute, on a project with Scott Hale, Ohad Kammar, Helen Margetts, and Tom Melham;
+  <a href="https://dario-stein.de/">Dario Stein</a> (DPhil on probabilistic programming, 2017-2021);
+    <a href="https://slspeight.github.io/">Sam Speight</a> was a DPhil student primarily supervised by Samson Abramsky,
+ <a href="https://www.cs.ox.ac.uk/people/junghun.yoo/">Junghun Yoo</a> was a DPhil student primarily supervised by Hongseok Yang, now a lecturer at Sheffield Hallam;     
+  <a href="http://antonin.delpeuch.eu/">Antonin Delpeuch</a> (DPhil on string diagrams, cosupervised with Jamie Vicary, 2021-2022);
+<a href="https://yuaanzhou.github.io/">Yuan Zhou</a> (DPhil on probabilistic programming cosupervised with Hongseok Yang, Tom Rainforth, Yee Whye Teh, and Frank Wood, 2016-2021);
+  <a href="http://www.mathysrennela.nl/">Mathys Rennela</a>
+(PhD on quantum programming languages, 2013-2019);
+<a href="http://www.cs.ru.nl/~suijlen/">Sander Uijlen</a> (PhD on quantum logic, 2013-2019, cosupervised with Aleks Kissinger and Bart Jacobs);
+  <a href="https://uk.linkedin.com/in/ben-roberts-a950b868">Ben Roberts</a>
+  (PhD on information flow security for distributed programming languages, 2013); <a href="https://uk.linkedin.com/in/jad-ghalayini">Jad Ghalayini</a> (MSc project on dependent types); 
+  <a href="https://danelahman.github.io/">Danel Ahman</a> (MPhil project on normalization by evaluation); <a href="http://www.cl.cam.ac.uk/~rk436">Ramana Kumar</a> (MPhil essay on formalizing set theory); 
+<a href="http://www.cs.ox.ac.uk/people/kwok-ho.cheung/">Kwok Cheung</a> (MPhil essay on algebraic effects and partiality); 
+<a href="https://users.soe.ucsc.edu/~sobanerj/">Sohum Banerjea</a> (MPhil essay on inference programming languages).</li>
+</ul>
+
+<b>Courses taught: </b>
+<a href="https://www.cs.ox.ac.uk/teaching/courses/2021-2022/principles/">
+  Principles of Programming Languages</a> in Oxford.
+<a href="https://www.cs.ox.ac.uk/teaching/courses/2021-2022/SPP/">Statistical Probabilistic Programming</a> at Oxford, jointly with Luke Ong, Hugo Paquet and Paolo Perrone. <a href="https://www.cs.uoregon.edu/research/summerschool/summer19/topics.php#Staton">Probabilistic Programming</a> at Oregon PL Summer School 2019. 
+A <a href="http://www.cs.ru.nl/is/education/courses/2014/coalgebra/">course
+  on coalgebra</a> jointly
+with <a href="http://alexandrasilva.org">Alexandra Silva</a> in Nijmegen.
+Courses on 
+<a href="http://www.cl.cam.ac.uk/teaching/1213/DiscMathI/">Discrete mathematics I</a>, 
+<a href="http://www.cl.cam.ac.uk/teaching/1213/Semantics/">Semantics of programming languages</a>, and 
+<a href="http://www.cl.cam.ac.uk/teaching/1213/L108/">Category theory and logic</a> in Cambridge.
+<p>
+
+<h2>Responsibilities and events</h2>
+
+<b>Steering committees</b>:
+IEEE Symposium on Logic in Computer Science
+<a href="http://lics.rwth-aachen.de">
+  (LICS, 2015-)</a>;
+Formal Structures in Computation and Deduction
+<a href="http://fscd-conference.org/">(FSCD, 2017-2020)</a>.
+Organizing committee of Mathematical Foundations of Programming Semantics
+(MFPS, 2022-).
+<p>
+  <b>Editorial board member:</b> <a href="https://tqc.acm.org/editorial.cfm">ACM Transactions on Quantum Computing</a>.
+  <p>
+<b>Programme committee member:</b>
+54th EATCS International Colloquium on Automata, Languages and Programming (ICALP 2027);
+53rd ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2026, <b>Associate Chair</b>); 40th Annual ACM/IEEE Symposium on Logic in Computer Science (<a href="https://lics.siglog.org/lics25/">LICS 2025</a>); 41st Conference on Mathematical Foundations of Programming Semantics (<a href="https://www.coalg.org/calco-mfps-2025/mfps/">MFPS 2025</a>); 34th European Symposium on Programming (<a href="https://etaps.org/2025/conferences/esop/">ESOP 2025</a>), 
+32nd EACSL Annual Conference on Computer Science Logic 2024 (<a href="https://csl2024.github.io/Home/">CSL 2024</a>); 50th EATCS International Colloquium on Automata, Languages and Programming (<a href="https://icalp2023.cs.upb.de/">ICALP 2023</a>);
+<b>PC co-chair</b>: 6th Annual Conference on Applied Category Theory (<a href="https://act2023.github.io/">ACT 2023</a>);
+26th International Conference on Foundations of Software Science and Computation Structures (<a href="https://etaps.org/2023/fossacs">FOSSACS 2023</a>);
+7th International Conference on
+Formal Structures for Computation and Deduction
+(<a href="https://www.cs.tau.ac.il/~nachumd/FSCD/">FSCD 2022</a>);
+49th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+(<a href="https://popl22.sigplan.org/">POPL 2022</a>);
+30th European Symposium on Programming (<a href="https://etaps.org/2021/esop">ESOP 2021</a>); 25th Annual ACM/IEEE Symposium on Logic in Computer Science (<a href="https://lics.siglog.org/lics20/">LICS 2020</a>); 24th ACM SIGPLAN International Conference on Functional Programming (<a href="https://icfp19.sigplan.org/">ICFP 2019</a>);
+4th International Conference on Formal Structures for Computation and Deduction (<a href="http://easyconferences.eu/fscd2019/">FSCD 2019</a>);
+ <b>PC chair</b>: 34th Conference on Mathematical Foundations of Programming Semantics (<a href="https://www.mathstat.dal.ca/mfps2018/">MFPS XXXIV</a>);
+42nd International Symposium on Mathematical Foundations of Computer
+Science
+(<a href="http://mfcs2017.cs.aau.dk/">MFCS 2017</a>);
+44th ACM SIGPLAN-SIGACT Symposium on Principles of Programming
+Languages
+(<a href="http://conf.researchr.org/home/POPL-2017">POPL 2017</a>);
+26th European Symposium on Programming
+(<a href="http://www.etaps.org/index.php/2017/esop">ESOP 2017</a>);
+Workshop on Syntax and Semantics of Low-level Languages
+(<a href="http://lola.cse.buffalo.edu/">LOLA 2016</a>);
+10th International Workshop on Fixed Points in Computer Science
+ (<a href="http://www.irit.fr/FICS2015/">FICS 2015</a>);
+6th Conference on Algebra and Coalgebra in Computer Science (<a href="http://coalg.org/calco15/">CALCO 2015</a>);
+<b>PC co-chair</b>: 30th Conference on Mathematical Foundations of Programming Semantics (<a href="http://www.cs.cornell.edu/Conferences/MFPS30">MFPS XXX</a>);
+3rd ACM-SIGPLAN Workshop on Higher-Order Programming with Effects (<a href="https://www.mpi-sws.org/~neelk/hope2014/">HOPE 2014</a>);
+  Combined 21st International Workshop on Expressiveness in Concurrency and 11th Workshop on Structured Operational Semantics
+(<a href="http://concur2014.org/workshops.php">EXPRESS/SOS 2014</a>);
+11th International Workshop on Domain Theory and Applications (<a href="http://www.pps.univ-paris-diderot.fr/%7Evaracca/domains/Domains_XI/Home.html">Domains XI</a>);
+18th ACM SIGPLAN International Conference on Functional Programming (<a href="http://icfpconference.org/icfp2013/">ICFP 2013</a>);
+Workshop on Syntax and Semantics of Low-Level Languages (<a href="http://research.microsoft.com/en-us/events/lola2013/">LOLA 2013</a>); 
+5th Conference on Algebra and Coalgebra in Computer Science (<a href="http://coalg.org/calco13/">CALCO 2013</a>);
+21st Conference
+on Computer Science Logic (<a href="http://csl2012.lacl.fr/">CSL 2012</a>), 4th Workshop on Mathematically
+Structured Functional Programming (<a href="http://cs.ioc.ee/msfp/msfp2012/">MSFP 2012</a>); 11th International
+Workshop on Coalgebraic Methods in Computer Science (<a href="http://coalg.org/cmcs12/">CMCS 2012</a>); 9th
+Asian Symposium on Programming Languages and Systems (<a href="http://flolac.iis.sinica.edu.tw/aplas11/">APLAS 2011</a>);
+4th Conference on Algebra and Coalgebra (<a href="http://calco2011.ecs.soton.ac.uk/">CALCO 2011</a>); 8th
+International Workshop on Structural Operational Semantics (<a href="http://sos2011.ecs.soton.ac.uk/">SOS 2011</a>);
+7th International Workshop on Structural Operational Semantics (<a href="http://www.ru.is/faculty/luca/SOS2010/">SOS 2010</a>). External review committee of 39th ACM SIGPLAN-SIGACT Symposium
+on Principles of Programming Languages (<a href="http://www.cse.psu.edu/popl/12/">POPL 2012</a>).
+<p><b>Organizing committees</b>:
+  Scientific committee: <a href="https://conferences.cirm-math.fr/2686.html">Logic of Probabilistic Programming at CIRM</a> (Jan 2022).
+  Local organizer: 
+<a href="https://oxford24.github.io/">ACT and MFPS 2024</a>; 
+<a href="http://www.floc2018.org/about/">LICS 2018</a>; 
+<a href="http://fscdconference.org/">FSCD 2017</a>; 
+<a href="https://coalg.org/calco15/">CALCO 2015</a>
+and <a href="http://events.cs.bham.ac.uk/mfps31/?lang=en">MFPS XXXI</a>;
+International Conference on Category Theory (<a href="http://www.ct2014.dpmms.cam.ac.uk">CT 2014</a>);
+Informal Workshop on Programming with Handlers (<a href="http://permalink.gmane.org/gmane.comp.science.types.announce/3773">Cambridge June 2013</a>).
+<p>
+  <b>Some recent/upcoming invited or keynote talks</b>:
+  <a href="https://conferences.cirm-math.fr/3489.html">EPIT 2026</a>;
+  <a href="https://fiorefest.gitlab.io/home/">FioreFest 2026</a>;
+  <a href="https://cse.hkust.edu.hk/ai-formal/">Frontiers Forum on AI+FM 2025</a>;
+  <a href="https://lipn.univ-paris13.fr/TLLA/2025/">TLLA 2025</a>;
+  <a href="https://nwpt24.github.io">NWPT 2024</a>;
+  <a href="https://probprog.cc/agenda/">PROBPROG Sep 2023</a>;
+  <a href="https://veriprop.github.io/2023/">VERIPROP 2023</a>;
+  <a href="https://www.lms.ac.uk/events/lectures/lms-bcs-facs-evening-seminars">BCS-FACS 2022 Seminar</a>;
+  <a href="https://popl22.sigplan.org/home/lafi-2022">LAFI 2022</a>;
+  <a href="https://www.coalg.org/cmcs22/">CMCS 2022</a>;
+  <a href="https://fscd2021.dc.uba.ar/">FSCD 2021</a>;
+  <a href="https://www.coalg.org/calco-mfps2021/">MFPS 2021</a>;
+  <a href="https://jamievicary.github.io/owls/">OWLS Jan 2021</a>;
+  <a href="http://perimeterinstitute.ca/personal/tfritz/2019/cps_workshop/">CPS 2020</a>;
+  <a href="https://www.cs.uoregon.edu/research/summerschool/summer19/topics.php">OPLSS 2019</a>;
+  <a href="https://community.dur.ac.uk/cie.2019/">CIE 2019</a>;
+  <a href="http://pihoc2019.cs.unibo.it/">PIHOC 2019</a>;
+  <a href="http://iuuk.mff.cuni.cz/~icalp2018/">ICALP 2018</a>;
+  <a href="http://acm-stoc.org/stoc2018/invited.html">STOC 2018</a>;
+  <a href="https://logic-data-science.github.io/?page=logic_learning">Logic and learning 2018</a>;
+  <a href="http://www.sussex.ac.uk/blc17/">British Logic Colloquium 2017</a>;
+  <a href="https://simons.berkeley.edu/workshops/logic2016-1">Uncertainty
+  in Computation, 2016</a>;
+  <a href="http://csl16.lif.univ-mrs.fr/qslc/">QSLC 2016</a>;
+  <a href="https://www.irif.univ-paris-diderot.fr/~jkrivine/conferences/WIP2016/WIP_2016.html">WIP 2016</a>;
+  <a href="http://conferences.au.dk/mfps-2016/">MFPS 2016</a>;
+  <a href="http://chocola.ens-lyon.fr/events/seminaire-2016-01-14/">CHOCOLA, Jan 2016</a>;
+  <a href="http://www.cs.mdx.ac.uk/foundations/s-repls-2/">S-REPLS2, Nov 2015</a>;
+  <a href="http://events.cs.bham.ac.uk/mfps31/?lang=en">MFPS 2015</a>.
+</body></html>

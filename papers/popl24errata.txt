@@ -1,0 +1,19 @@
+Corrections to
+Probabilistic programming interfaces for random graphs:
+Markov categories, graphons, and nominal sets.
+Proc. ACM Program. Lang. 8, POPL, Article 61 (2024).
+N. Ackerman, C. Freer, Y. Kaddar, J. Karwowski, S. Moss,
+D. Roy, S. Staton and H. Yang.
+
+Section 4.1.2, as written, does not present a category: the reindexing
+relation given there is not a congruence, so composition is not well
+defined on equivalence classes, and equation (19) does not describe the
+hom-sets. The proof of Theorem 25 relies on it, and is incomplete in its
+current form. The category itself does exist, and we have corrected
+constructions that establish the theorem.
+
+Sections 3, 5 and 6 are unaffected.
+
+A corrigendum will follow.
+
+Last updated August 2026.
