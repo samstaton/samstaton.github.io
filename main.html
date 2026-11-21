@@ -41,8 +41,7 @@ Jesus College, Oxford<br><br>
 <hr>
 <p>
 <b>Interests:</b> My research is in programming language theory, and I'm
- also interested in logic and category theory. I've recently been especially interested in
- two kinds of programming language:
+ also interested in logic and category theory. I've recently been especially interested in the following:
 <ul>
 <li><i><b>Probabilistic programming languages</b></i>:
   This is broadly to do with specifying and understanding statistical models using programming languages.
@@ -53,7 +52,22 @@ Jesus College, Oxford<br><br>
  <i>s-finite kernels</i> as a simple compositional formalism allowing both sampling and observations (<a href="#esop17">ESOP 2017</a>), and 
     <em>quasi-Borel spaces</em>, a new setting for higher order probability theory (<a href="#lics17a">LICS 2017</a>). Our <a href="#pps17">PPS
     2017 abstract</a> looked at the relationship between exchangeability and program modules which I think is an exciting direction, and we stepped further in <a href="#icalp18">ICALP 2018</a>, <a href="#ahp21">AHP 2021</a> and <a href="#popl24">POPL 2024</a>.
+  More recently we have looked at imprecise probability (<a href="#popl25">POPL 2025</a>, <a href="#icfp26b">ICFP 2026</a>), Hamiltonian Monte Carlo for lazy, infinite-dimensional programs (<a href="#icfp26a">ICFP 2026</a>), causal probabilistic programming (<a href="#popl27b">POPL 2027</a>) and coinduction for stochastic processes (<a href="#popl27c">POPL 2027</a>).
 <!--  We had an earlier paper about semantics in <a href="#lics16">LICS 2016</a>. -->
+<p></p></li>
+<li><i><b>Computational monads and algebraic effects</b></i>:
+This line of work stems from the observation that
+notions of computation can be determined by program equations
+using techniques from universal algebra.
+Recent work includes an equational axiomatization of dynamic threads (<a href="#popl26a">POPL 2026</a>) and the relative monadic metalanguage (<a href="#popl26b">POPL 2026</a>).
+Earlier, I presented
+new algebraic frameworks to analyze program equations
+for quantum computation (<a href="#popl15">POPL 2015</a>), jumps (<a href="#lics14a">LICS 2014</a>),
+local store and pi-calculus (<a href="#lics13">LICS 2013</a>, <a href="#fossacs10">FOSSACS 2010</a> and <a href="#mfps09">MFPS
+  2009</a>)
+and functional logic programming (<a href="#fossacs13">FOSSACS
+  2013</a>).
+See <a href="#freyd-lawvere14">WACT 2014</a> for a categorical perspective.
 <p></p></li>
 <li><i><b>Quantum computing and programming languages</b></i>:
 Mathieu Huot and I found a neat universal property for quantum theory (<a href="#lics19">LICS 2019</a>, <a href="#qpl18">QPL 2018</a>) based on my theory of quantum programs
@@ -69,25 +83,10 @@ Computation as a Programming Language' (<a href="https://gtr.ukri.org/projects?r
 and a current AFOSR grant FA9550-21-1-0038.
 </li>
 </ul>
-Aside from these recent interests, I've been involved in various foundational
-aspects of programming language theory.
-One key theme has been <b>computational monads and algebraic theories:</b>
-This line of work stems from the observation that
-notions of computation can be determined by program equations
-using techniques from universal algebra. 
-I have presented
-new algebraic frameworks to analyze program equations
-for quantum computation (<a href="#popl15">POPL 2015</a>), jumps (<a href="#lics14a">LICS 2014</a>),
-local store and pi-calculus (<a href="#lics13">LICS 2013</a>, <a href="#fossacs10">FOSSACS 2010</a> and <a href="#mfps09">MFPS
-  2009</a>)
-and functional logic programming (<a href="#fossacs13">FOSSACS
-  2013</a>).
-See <a href="#fossacs19">FOSSACS 2019</a> for a program logic,
-and <a href="#freyd-lawvere14">WACT 2014</a> for a categorical perspective.
-I've also been involved in game semantics
+Aside from these, I've also been involved in game semantics
 (<a href="#lics14b">LICS 2014</a>) and
 categorical operational semantics (e.g. <a href="#lics08">LICS
-  2008</a>, <a href="#lics06">LICS 2006</a>, <a href="#lmcs11">LMCS 2011</a>). 
+  2008</a>, <a href="#lics06">LICS 2006</a>, <a href="#lmcs11">LMCS 2011</a>).
 <p>
   <b>Quick biography: </b>
   I've been in Oxford since March 2015. Since 2020 I've been partly supported by my ERC Consolidator Grant <a href="https://www.cs.ox.ac.uk/people/samuel.staton/blast/">'Better Languages for Statistics'</a>. Between 2015-2022 I was supported by a Royal Society University Research Fellowship. Before that, I spent time
@@ -123,21 +122,21 @@ PhD Student with <a href="http://www.cl.cam.ac.uk/~mpf23">Marcelo Fiore</a>
 <ul>
   <li>J.&nbsp;Karwowski, F.&nbsp;Nielsen, S.&nbsp;Staton.
     <b>Compositional Information Geometry of Probabilistic Programs</b>. Preprint: <a href="https://arxiv.org/abs/2610.17886">arxiv:2610.17886</a>. <p></li>
-  <li>S.&nbsp;J.&nbsp;Park and S.&nbsp;Staton.
+  <li><a id="popl27c"></a>S.&nbsp;J.&nbsp;Park and S.&nbsp;Staton.
     <b>Coinduction for stochastic processes in higher-order lazy probabilistic programming: Semantics via the Ionescu&ndash;Tulcea extension theorem in &omega;Qbs</b>. Accepted for POPL 2027. Draft on request. <p></li>
-  <li>T.&nbsp;Wang, D.&nbsp;Stein, M.&nbsp;Lee, E.&nbsp;Bingham, J.&nbsp;Feser, O.&nbsp;Kammar, S.&nbsp;Staton, J.&nbsp;Yallop.
+  <li><a id="popl27b"></a>T.&nbsp;Wang, D.&nbsp;Stein, M.&nbsp;Lee, E.&nbsp;Bingham, J.&nbsp;Feser, O.&nbsp;Kammar, S.&nbsp;Staton, J.&nbsp;Yallop.
     <b>From structural causal models to higher order causal probabilistic programming: Contextual equivalences, Graded Monads and Functor Categories</b>. Accepted for POPL 2027. Draft on request. <p></li>
   <li>J.&nbsp;Liell-Cock and S.&nbsp;Staton.
     <b>Cambria: Resource Abstraction for Parametrized Algebraic Effects and Handlers</b>. Accepted for POPL 2027. Preprint: [<a href="papers/popl2027-cambria.pdf">pdf</a>] <a href="https://arxiv.org/abs/2608.27798">arxiv:2608.27798</a>. Try Cambria in the browser: <a href="https://cambria-lang.org">cambria-lang.org</a>. <p></li>
   <li>J.&nbsp;Karwowski, Y.&nbsp;Kaddar, Z.&nbsp;Ye, E.&nbsp;S.&nbsp;Whitammer, S.&nbsp;Staton.
     <b>Likelihood hacking in probabilistic program synthesis</b>. To appear in Proceedings of UAI 2026. Preprint: [<a href="papers/uai2026-likelihood-hacking.pdf">pdf</a>] <a href="https://arxiv.org/abs/2603.24126">arxiv:2603.24126</a>. <p></li>
-  <li>M.-N.&nbsp;Craciun, L.&nbsp;Ong, T.&nbsp;Schrijvers, S.&nbsp;Staton.
+  <li><a id="icfp26a"></a>M.-N.&nbsp;Craciun, L.&nbsp;Ong, T.&nbsp;Schrijvers, S.&nbsp;Staton.
     <b>LazyHMC: Hamiltonian Monte Carlo Simulation for Lazy, Infinite Dimensional Probabilistic Programs</b>. In Proceedings of ICFP 2026. Proceedings of the ACM on Programming Languages, Volume 10, Article No.: 298. [<a href="papers/icfp2026-lazyhmc.pdf">pdf</a>] <a href="https://arxiv.org/abs/2608.08588">arxiv:2608.08588</a>. <a href="https://doi.org/10.1145/3828696">doi:10.1145/3828696</a>. <p></li>
-  <li>J.&nbsp;Liell-Cock and S.&nbsp;Staton.
+  <li><a id="icfp26b"></a>J.&nbsp;Liell-Cock and S.&nbsp;Staton.
     <b>Imprecise Probabilistic Programming, Precisely (Functional Pearl)</b>. In Proceedings of ICFP 2026. Proceedings of the ACM on Programming Languages, Volume 10, Article No.: 300. Preprint: [<a href="papers/icfp2026-imp.pdf">pdf</a>] <a href="https://arxiv.org/abs/2607.20801">arxiv:2607.20801</a>. <a href="https://doi.org/10.1145/3828698">doi:10.1145/3828698</a>. <p></li>
-  <li><b><i>POPL Distinguished Paper:</i></b> O.&nbsp;Kammar, J.&nbsp;Liell-Cock, S.&nbsp;Lindley, C.&nbsp;Matache, S.&nbsp;Staton.
+  <li><a id="popl26a"></a><b><i>POPL Distinguished Paper:</i></b> O.&nbsp;Kammar, J.&nbsp;Liell-Cock, S.&nbsp;Lindley, C.&nbsp;Matache, S.&nbsp;Staton.
     <b>An equational axiomatization of dynamic threads via algebraic  effects</b>. In Proceedings of POPL 2026. [<a href="papers/2026popl-threads.pdf">pdf</a>] <a href="https://arxiv.org/abs/2602.05850">arxiv:2602.05850</a>. <a href="https://doi.org/10.1145/3776706">doi:10.1145/3776706</a>. <p></li>
-  <li>J.&nbsp;Liell-Cock, Z.&nbsp;Shirazi, S.&nbsp;Staton.
+  <li><a id="popl26b"></a>J.&nbsp;Liell-Cock, Z.&nbsp;Shirazi, S.&nbsp;Staton.
     <b>The relative monadic metalanguage</b>. In Proceedings of POPL 2026. Preprint: [<a href="papers/popl2026-rmm.pdf">pdf</a>] <a href="https://arxiv.org/abs/2512.11762">arxiv:2512.11762</a>. <a href="https://doi.org/10.1145/3776702">doi:10.1145/3776702</a>. <p></li>
 <li>Notes on <b>A causal Markov category with Kolmogorov products</b>. Sean Moss and Sam Staton. [<a href="notes-boolean-kernels-as-markov-category.pdf">pdf</a>] <a href="https://arxiv.org/abs/2512.24417">arxiv:2512.24417</a>. <p></li>
   <li>Cristina Matache, Sam Lindley, Sean Moss, Sam Staton, Nicolas Wu, Zhixuan Yang.
@@ -152,7 +151,7 @@ In ACM Transactions of Programming Languages and Systems (TOPLAS), Volume 47, 20
 Accepted for ICLR 2025 Workshop on Quantifying Uncertainty and Hallucination in Foundation Models. Preprint: [<a href="papers/iclr2025-uncertainty.pdf">pdf</a>] <a href="https://arxiv.org/abs/2502.11250">arxiv:2502.11250</a>.<p> </li>
 
 
-  <li>J.&nbsp;Liell-Cock and S.&nbsp;Staton. <b>Compositional models of imprecise probability</b>. In Proceedings of POPL 2025. Proceedings of the ACM on Programming Languages, Volume 9,
+  <li><a id="popl25"></a>J.&nbsp;Liell-Cock and S.&nbsp;Staton. <b>Compositional models of imprecise probability</b>. In Proceedings of POPL 2025. Proceedings of the ACM on Programming Languages, Volume 9,
 Article No.: 54.
     Preprint: [<a href="papers/popl2025.pdf">pdf</a>] <a href="https://arxiv.org/abs/2405.09391">arxiv:2405.09391</a>.
     <a href="https://doi.org/10.1145/3704890">doi:10.1145/3704890</a>. 
